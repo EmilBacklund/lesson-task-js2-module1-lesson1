@@ -1,0 +1,42 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  max-width: 1240px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.results {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.character-detail {
+  width: 250px;
+  background-color: #212121;
+  padding: 20px;
+}
+
+.character-detail p {
+  text-align: center;
+}
+
+.character-img-container {
+  width: 100%;
+  height: 50%;
+}
+
+img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
